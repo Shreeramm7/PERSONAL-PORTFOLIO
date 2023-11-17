@@ -434,6 +434,10 @@ nav .bx {
     left: 25px;
     cursor: pointer;
   }
+  #sidemenu{
+    width:230px;
+    position:fixed;
+  }
   .skill {
     margin: 20px;
     text-transform: uppercase;
