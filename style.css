@@ -435,8 +435,9 @@ nav .bx {
     cursor: pointer;
   }
   #sidemenu{
-    width:230px;
-    position:fixed;
+    width:130px;
+    height:667px;
+    position:absolute;
   }
   .skill {
     margin: 20px;
