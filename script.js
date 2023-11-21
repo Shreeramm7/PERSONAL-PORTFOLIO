@@ -2,10 +2,12 @@ let sideMenu = document.getElementById('sidemenu');
 
 function openmenu() {
   sideMenu.style.right = '0';
+  sideMenu.style.display = 'block';
 }
 
 function closemenu() {
   sideMenu.style.right = ' -200px';
+  sideMenu.style.display = 'none';
 }
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxx0SElcBOlS4xMYd94EQEPPGDMoqZJC0DqKhxDowrkczfi2XeR_E95uIWo8ilSCaL7/exec';
